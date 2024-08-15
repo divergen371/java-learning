@@ -12,6 +12,7 @@ const Quiz = () => {
       ],
       answer: "ジェームズ・ゴスリング",
     },
+    // 他の質問を追加
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -42,16 +43,18 @@ const Quiz = () => {
       ) : (
         <div>
           <h2>{questions[currentQuestion].question}</h2>
-          {questions[currentQuestion].options.map((option) => {
+          {questions[currentQuestion].options.map((option) => (
             <button
               key={option}
               onClick={() => handleAnswerOptionClick(option)}
-            ></button>;
-          })}
+            >
+              {option}
+            </button>
+          ))}
         </div>
       )}
     </div>
   );
 };
 
-export default Quiz;
+export default QuizComponent;
