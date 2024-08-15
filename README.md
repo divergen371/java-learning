@@ -1,8 +1,9 @@
-# Astro Starter Kit: Basics
+
+# Java学習アプリのプロトタイプ
 
 ---
 
-## Java学習アプリのプロトタイプ
+## Astro Starter Kit: Basics
 
 ```sh
 npm create astro@latest -- --template basics
