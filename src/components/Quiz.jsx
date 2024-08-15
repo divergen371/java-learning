@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Quiz = () => {
+const QuizComponent = () => {
   const questions = [
     {
       question: "Javaの開発者は誰？",
