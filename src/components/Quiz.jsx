@@ -12,7 +12,7 @@ const QuizComponent = () => {
       ],
       answer: "ジェームズ・ゴスリング",
     },
-    // 他の質問を追加
+    // TODO: 他の質問を追加
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
